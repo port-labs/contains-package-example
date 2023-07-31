@@ -1,0 +1,25 @@
+{
+    "identifier": "package",
+    "description": "Requirements File Package",
+    "title": "Requirements File",
+    "icon": "Package",
+    "schema": {
+      "properties": {
+        "content": {
+          "type": "string",
+          "title": "Content",
+          "description": "Content of the requirements.txt file"
+        }
+      },
+      "required": []
+    },
+    "mirrorProperties": {},
+    "calculationProperties": {
+      "contains": {
+        "title": "Contains Package",
+        "calculation": ".properties.content | index(\"requests\") >= 0",
+        "type": "boolean"
+      }
+    },
+    "relations": {}
+  }
