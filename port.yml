@@ -1,0 +1,5 @@
+blueprint: requirementsFile
+title: Module 1
+identifier: module_1_entity
+properties:
+  content: file://module1/requirements.txt
