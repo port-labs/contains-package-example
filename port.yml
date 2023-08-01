@@ -1,4 +1,4 @@
-blueprint: package
+blueprint: service
 title: Packages
 identifier: my-python-packages
 properties:
