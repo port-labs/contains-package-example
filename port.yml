@@ -1,5 +1,5 @@
-blueprint: requirementsFile
-title: Module 1
-identifier: module_1_entity
+blueprint: package
+title: Packages
+identifier: my-python-packages
 properties:
-  content: file://module1/requirements.txt
+  content: file://./requirements.txt
