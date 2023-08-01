@@ -2,7 +2,7 @@
     "identifier": "service",
     "description": "Requirements File Package",
     "title": "Requirements File",
-    "icon": "Package",
+    "icon": "Service",
     "schema": {
       "properties": {
         "content": {
