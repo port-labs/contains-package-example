@@ -3,7 +3,7 @@
 
 ## Getting started
 
-In this example, you will create a blueprint for `package` entity that ingests all third party dependencies in your requirements.txt file using Port's GitOps functionality. You will then create a calculation property (`contains`) on this blueprint to check whether a specific package is present in the content of the file. Finally, you will add the `port.yml` file in your project's root folder to enable Port to read and parse the requirements.txt file. In this example, delete the row "nugpak" row from the port.yml.
+In this example, you will create a blueprint for `package` entity that ingests all third party dependencies in your requirements.txt file using Port's GitOps functionality. You will then create a calculation property (`contains`) on this blueprint to check whether a specific package is present in the content of the file. Finally, you will add the `port.yml` file in your project's root folder to enable Port to read and parse the requirements.txt file. In this example, delete the row "nugpak" from the port.yml.
 
 ## Package Blueprint
 Create the service blueprint in Port [using this json file](./resources/blueprint.json)
