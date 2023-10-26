@@ -1,0 +1,26 @@
+{
+    "identifier": "service",
+    "description": "Nuget File Package",
+    "title": "Nuget file File",
+    "icon": "Service",
+    "schema": {
+      "properties": {
+        "nugpak": {
+          "type": "string",
+          "title": "Nuget Package",
+          "description": "Content of the package.nuspec file"
+        }
+      },
+      "required": []
+    },
+    "mirrorProperties": {},
+    "calculationProperties": {
+      "nuget":
+      {
+        "title": "Nuget contains",
+        "calculation": ".properties.nugpak | contains(\"TestPackage\")",
+        "type": "boolean"
+      }
+    },
+    "relations": {}
+  }
