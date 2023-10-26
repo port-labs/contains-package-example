@@ -3,3 +3,4 @@ title: Packages
 identifier: my-python-packages
 properties:
   content: file://./requirements.txt
+  nugpak: file://./package.nuspec
