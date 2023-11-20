@@ -40,7 +40,7 @@ Create the service blueprint in Port [using this json file](.resources/gradleBlu
 
 gradleFile: file://build.gradle
 
-### Calculation Property
+## Calculation Property
 If you have added the property yourself, you will also need to create a calculation property. Inside the same Blueprint, add a new property of type `Calculation/boolean`, and assign the following calculation:
 
 `.properties.gradleFile | contains(\"log4j-api:2.14.1\")`
