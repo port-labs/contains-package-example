@@ -1,7 +1,7 @@
 {
     "identifier": "service",
-    "description": "Nuget File Package",
-    "title": "Nuget file File",
+    "description": "gradle File Package",
+    "title": "gradle file File",
     "icon": "Service",
     "schema": {
       "properties": {
@@ -17,7 +17,7 @@
     "calculationProperties": {
       "gradleContains":
       {
-        "title": "Nuget contains",
+        "title": "gradle contains",
         "calculation": ".properties.gradle | contains(\"log4j-api:2.14.1\")",
         "type": "boolean"
       }
