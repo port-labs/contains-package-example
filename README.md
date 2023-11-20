@@ -36,7 +36,8 @@ The gradle file is a specification file for the Gradle building tool. In this ex
 In this example, you will create a string property named `gradle`, and ingest the content of the build.gradle file into as a string.
 
 ## Service Blueprint
-Create the service blueprint in Port [using this json file](.resources/gradleBlueprint.json)
+Create the service blueprint in Port [using this json file](.resources/gradleBlueprint.json). Alternatively, you can add a String property to your repository's blueprint with the identifier of `gradleFile`. If done so, you will need to add a change to your mapping config: In the `repository` kind selector, add a new property mapping like so:
+gradleFile: file://build.gradle
 
 ### Calculation Property
 In the `gradleBlueprint.json` file, you can see an example of the calculation property. In this example, we are using JQ to test if the string property `gradle` contains the substring `log4j-api:2.14.1`. Then, we set the value of this calculation to the boolean property `gradleContains`
