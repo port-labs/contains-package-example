@@ -43,6 +43,6 @@ gradleFile: file://build.gradle
 ## Calculation Property
 If you have added the property yourself, you will also need to create a calculation property. Inside the same Blueprint, add a new property of type `Calculation/boolean`, and assign the following calculation:
 
-`.properties.gradleFile | contains(\"log4j-api:2.14.1\")`
+`.properties.gradleFile | contains("log4j-api:2.14.1")`
 
 This calculation checks the gradleFile property, and looks for a substring that contains the log4j package. If found, the property will display `True`, otherwise `False`. Make sure to replace the \"PACKAGE NAME\" with the required package to test.
